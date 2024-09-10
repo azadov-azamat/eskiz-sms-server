@@ -4,7 +4,7 @@ const axios = require('axios');
 const FormData = require('form-data');
 
 async function getSMSProviderToken() {
-    let token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTc3NTY3MDAsImlhdCI6MTcxNTE2NDcwMCwicm9sZSI6InVzZXIiLCJzaWduIjoiNjM0YmY5ZTM0ZDBkN2ZkMTMzMjg5YzQ1ZmY0ZDA0M2I4MzBhYWRkNmQ3YzYyYWQ0YmI4OWMxNmJiNzMwOGYwOSIsInN1YiI6IjQ5NTEifQ.0HMYNx11FOaLbxh9ndGevz-6AXh0xKGrcoN2nO9W4cg';
+    let token = 'YOUR_JWT_TOKEN_IF_EXIST';
 
     if (token) {
         return token;
